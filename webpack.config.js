@@ -43,7 +43,7 @@ module.exports = (env, options) => ({
             filename: '[name].[contenthash].css',
         }),
         new CopyPlugin([
-                {from: "./src/touchicons"},
+                {from: "./src/assets"},
             ],
         ),
 
