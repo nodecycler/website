@@ -1,0 +1,18 @@
+.jumbotron.intro {
+  background-color: #DDE0C9;
+
+  svg.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .btn-primary {
+    background-color: #6FAD2D;
+    border-color: #6FAD2D;
+  }
+  .btn-primary:active {
+    background-color: #579120;
+    border-color: #579120;
+  }
+}
