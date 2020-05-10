@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack",
-    "deploy": "webpack --mode production && gh-pages -b master -d dist/ -r git@github.com:nodecycler/nodecycler.github.io.git"
+    "deploy": "rm -Rf dist/ && webpack --mode production && gh-pages -b master -d dist/ -r git@github.com:nodecycler/nodecycler.github.io.git"
   },
   "repository": {
     "type": "git",
