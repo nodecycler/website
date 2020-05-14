@@ -39,6 +39,11 @@ module.exports = (env, options) => ({
             inject: "head",
             filename: "index.html"
         }),
+        new HtmlWebpackPlugin({
+            template: "./src/privacy.html",
+            inject: "head",
+            filename: "privacy.html"
+        }),
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css',
         }),
